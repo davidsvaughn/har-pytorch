@@ -1,6 +1,7 @@
 # har-pytorch
 Deep Learning for HAR: models and tools for Human Activity Recognition from IMU sensor data
 
+```
 virtualenv -p python3.6 venv
 start
 
@@ -18,3 +19,5 @@ cd ../hugface
 
 ## https://gist.github.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e
 # python download_glue_data.py --data_dir /home/david/data/hugface/glue --tasks all
+
+```

@@ -6,10 +6,10 @@ import tarfile
 import random
 import torch
 
-import inspect
-currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parentdir = os.path.dirname(currentdir)
-sys.path.insert(0,parentdir)
+# import inspect
+# currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+# parentdir = os.path.dirname(currentdir)
+# sys.path.insert(0,parentdir)
 
 import data_feeder as df
 from har_model import load_model

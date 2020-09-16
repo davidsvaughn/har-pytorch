@@ -14,10 +14,10 @@ import torch.nn.functional as F
 from torch import nn
 from apex import amp
 
-import inspect
-currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-parentdir = os.path.dirname(currentdir)
-sys.path.insert(0, parentdir)
+# import inspect
+# currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+# parentdir = os.path.dirname(currentdir)
+# sys.path.insert(0, parentdir)
 
 import models_pytorch as mods
 import data_feeder as df
